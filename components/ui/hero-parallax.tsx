@@ -105,12 +105,10 @@ export const Header = () => {
     return (
         <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
             <h1 className="text-2xl md:text-7xl font-bold">
-                The Ultimate <br /> development studio
+                Dignified Dining.<br />Delivered Daily.
             </h1>
             <p className="max-w-2xl text-base md:text-xl mt-8">
-                We build beautiful products with the latest technologies and frameworks.
-                We are a team of passionate developers and designers that love to build
-                amazing products.
+                With over 60,000 meals served daily, we combine large-scale operations with the refinement of fine hospitality. From government hostels and corporate kitchens to high-profile events, we deliver more than just food; we deliver trust, taste, and tradition.
             </p>
         </div>
     );

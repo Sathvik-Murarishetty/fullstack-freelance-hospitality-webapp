@@ -23,8 +23,8 @@ export function Header() {
       link: "#about",
     },
     {
-      name: "Our Events",
-      link: "#events",
+      name: "Our Services",
+      link: "#services",
     },
     {
       name: "Careers",
@@ -42,7 +42,7 @@ export function Header() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Inquire About An Event</NavbarButton>
+            <NavbarButton variant="primary">Contact Us</NavbarButton>
           </div>
         </NavBody>
 
@@ -76,7 +76,7 @@ export function Header() {
                 variant="primary"
                 className="w-full"
               >
-                Inquire About An Event
+                Contact Us
               </NavbarButton>
             </div>
           </MobileNavMenu>
